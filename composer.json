@@ -1,0 +1,21 @@
+{
+    "name": "fajle/ppi_ecommerce",
+    "authors": [
+      {
+        "name": "fajle84",
+        "email": "fajlerabbi@gmail.com"
+      }
+    ],
+    "require": {
+        "phroute/phroute": "^2.1"
+    },
+    "autoload":{
+      "psr-4":{
+          "App\\": "app/"
+    },
+      "files":[
+        "app/function.php"
+      ]
+
+  }
+}
